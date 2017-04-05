@@ -5,6 +5,9 @@
 	"description": "该扩展程序可以调整简书文章页面宽度",
 	"version": "1.0",
 	"author":"rascalquan",
+	"icons":{
+		"48": "icon_48.png"
+	},
 
 	"background":{
 		"scripts":["background.js"]
