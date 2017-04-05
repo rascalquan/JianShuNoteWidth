@@ -1,49 +1,60 @@
 <!doctype html>
 <html>
-  <head>
-    <title>简书调宽</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-	  #mainDiv{
-		width:200px;
-		height:50px;
-		text-align:center;
-	  }
-	  #mainForm{
-		margin-top:30px;
-		margin-bottom:30px;
-	  }
-	  #btnConfirm{
-		border: 1px solid #3e8f3e;
-		border-radius: 3px;
-		background-color: #009E12;
-		color: #fff;
-		height: 25px;
-		padding: 0 12px;
-		*padding: 0 5px;
-		width: auto;
-		background-repeat: repeat-x;
-		background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
-		margin-top:10px;
-	  }
-    </style>
 
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <div id="mainDiv">
-	<form id="mainForm">
-		<p>
-		<span style="font-size:13px">移动滑块调整页面宽度</span>
-		</p>
-		<input type="range" id="widthRange" ><span id="rangeSpan"></span></br>
-		<button  id="btnConfirm">确定</button>
-	</form>
-	<span id="copyRigntSpan" style="font-size:10px">--by rascalquan.</span>
+<head>
+	<title>简书调宽</title>
+	<style>
+		body {
+			font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+			font-size: 100%;
+		}
+		
+		#mainDiv {
+			width: 200px;
+			height: 50px;
+			text-align: center;
+		}
+		
+		#mainForm {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		
+		#btnConfirm {
+			border: 1px solid #3e8f3e;
+			border-radius: 3px;
+			background-color: #009E12;
+			color: #fff;
+			height: 25px;
+			padding: 0 12px;
+			*padding: 0 5px;
+			width: auto;
+			background-repeat: repeat-x;
+			background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+			margin-top: 10px;
+		}
+		
+		img {
+			vertical-align: middle;
+		}
+	</style>
+
+	<script src="popup.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<form id="mainForm">
+			<p>
+				<span style="font-size:13px">移动滑块调整页面宽度</span>
+			</p>
+			<input type="range" id="widthRange"><span id="rangeSpan"></span></br>
+			<button id="btnConfirm">确定</button>
+		</form>
+			<a href="https://github.com/rascalquan">
+				<span id="copyRigntSpan" style="font-size:10px">--by rascalquan.</span>
+			</a>
 	</div>
-  </body>
-</html>
+</body>
 
+</html>
