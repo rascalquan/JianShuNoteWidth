@@ -1,0 +1,1 @@
+document.getElementsByClassName('post')[0].style.width="1000px";
