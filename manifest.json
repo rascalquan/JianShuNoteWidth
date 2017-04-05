@@ -18,7 +18,8 @@
 		"default_title":"简书调宽"
 	},
 	"permissions": [
-		"tabs"
+		"tabs",
+		"http://www.jianshu.com/*"
 	],
 	"content_scripts":[{
 		"matches":["http://www.jianshu.com/p/*"],
